@@ -2,6 +2,8 @@ import React from 'react';
 import Counter from './counter-app/Counter';
 import NameForm from './counter-app/NameForm';
 import ToggleText from './counter-app/ToggleText';
+import WelcomeMessage from './counter-app/WelcomeMessage';
+import FruitList from './counter-app/FruitList';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       
       {/* <Counter /> */}
       {/* <NameForm/> */}
-      <ToggleText/>
+      {/* <ToggleText/> */}
+      {/* <WelcomeMessage/> */}
+      <FruitList/>
     </div>
   );
 }
