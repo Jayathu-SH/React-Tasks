@@ -4,6 +4,7 @@ import NameForm from './counter-app/NameForm';
 import ToggleText from './counter-app/ToggleText';
 import WelcomeMessage from './counter-app/WelcomeMessage';
 import FruitList from './counter-app/FruitList';
+import Greeting from './counter-app/Greeting';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <NameForm/> */}
       {/* <ToggleText/> */}
       {/* <WelcomeMessage/> */}
-      <FruitList/>
+      {/* <FruitList/> */}
+      <Greeting name="Jayathu"/>
     </div>
   );
 }
