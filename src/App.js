@@ -5,6 +5,7 @@ import ToggleText from './counter-app/ToggleText';
 import WelcomeMessage from './counter-app/WelcomeMessage';
 import FruitList from './counter-app/FruitList';
 import Greeting from './counter-app/Greeting';
+import UserList from './counter-app/UserList';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       {/* <Counter /> */}
       {/* <NameForm/> */}
       {/* <ToggleText/> */}
-      {/* <WelcomeMessage/> */}
+      {/* <WelcomeMessage isLoggedIn={true}/> */}
       {/* <FruitList/> */}
-      <Greeting name="Jayathu"/>
+      {/* <Greeting name="Jayathu"/> */}
+      <UserList/>
     </div>
   );
 }
