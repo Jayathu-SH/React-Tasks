@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       
       {/* <Counter /> */}
-      <NameForm/>
-      {/* <ToggleText/> */}
+      {/* <NameForm/> */}
+      <ToggleText/>
     </div>
   );
 }
