@@ -7,6 +7,7 @@ import FruitList from './counter-app/FruitList';
 import Greeting from './counter-app/Greeting';
 import UserList from './counter-app/UserList';
 import ToggleMessage from './counter-app/ToggleMessage';
+import UserLists from './counter-app/UserLists';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <FruitList/> */}
       {/* <Greeting name="Jayathu"/> */}
       {/* <UserList/> */}
-      <ToggleMessage/>
+      {/* <ToggleMessage/> */}
+      <UserLists/>
     </div>
   );
 }
