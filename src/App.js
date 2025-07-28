@@ -8,6 +8,7 @@ import Greeting from './counter-app/Greeting';
 import UserList from './counter-app/UserList';
 import ToggleMessage from './counter-app/ToggleMessage';
 import UserLists from './counter-app/UserLists';
+import MirrorInput from './counter-app/MirrorInput';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Greeting name="Jayathu"/> */}
       {/* <UserList/> */}
       {/* <ToggleMessage/> */}
-      <UserLists/>
+      {/* <UserLists/> */}
+      <MirrorInput/>
     </div>
   );
 }
