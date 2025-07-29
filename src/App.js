@@ -10,6 +10,8 @@ import ToggleMessage from './counter-app/ToggleMessage';
 import UserLists from './counter-app/UserLists';
 import MirrorInput from './counter-app/MirrorInput';
 import SmartForm from './counter-app/SmartForm';
+import RegistrationForm from './counter-app/RegistrationForm';
+import EmailForm from './counter-app/EmailForm';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
       {/* <ToggleMessage/> */}
       {/* <UserLists/> */}
       {/* <MirrorInput/> */}
-      <SmartForm/>
+      {/* <SmartForm/> */}
+      {/* <RegistrationForm/> */}
+      <EmailForm/>
     </div>
   );
 }
