@@ -12,6 +12,7 @@ import MirrorInput from './counter-app/MirrorInput';
 import SmartForm from './counter-app/SmartForm';
 import RegistrationForm from './counter-app/RegistrationForm';
 import EmailForm from './counter-app/EmailForm';
+import SearchFilter from './counter-app/SearchFilter';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <MirrorInput/> */}
       {/* <SmartForm/> */}
       {/* <RegistrationForm/> */}
-      <EmailForm/>
+      {/* <EmailForm/> */}
+      <SearchFilter/>
     </div>
   );
 }
