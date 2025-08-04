@@ -13,6 +13,7 @@ import SmartForm from './counter-app/SmartForm';
 import RegistrationForm from './counter-app/RegistrationForm';
 import EmailForm from './counter-app/EmailForm';
 import SearchFilter from './counter-app/SearchFilter';
+import PhoneForm from './counter-app/PhoneForm';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <SmartForm/> */}
       {/* <RegistrationForm/> */}
       {/* <EmailForm/> */}
-      <SearchFilter/>
+      {/* <SearchFilter/> */}
+      <PhoneForm/>
     </div>
   );
 }
